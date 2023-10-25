@@ -1,0 +1,65 @@
+.category-card {
+  width: 260px;
+  height: 360px;
+  background-color: #e5e7e9;
+  border-radius: 10px;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+  img {
+    padding: 1rem 0;
+    width: 75%;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: transform 3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+  }
+
+  .category-body-info {
+    background: #d6dbdf;
+    text-align: start;
+    padding: 1rem;
+  }
+
+  button {
+    padding: 0.6rem 1.8rem;
+    border: 1.7px solid #2c3e50;
+    cursor: pointer;
+    background-color: transparent;
+  }
+}
+
+.type {
+  width: 90%;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: space-between;
+
+  .mens {
+    width: 38%;
+    border: 2px solid black;
+    border-radius: 11px;
+    padding: 1rem 3rem;
+  }
+
+  .womens {
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 11px;
+    padding: 1rem 3rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .type {
+      width: 100%;
+    }
+  }
+}
