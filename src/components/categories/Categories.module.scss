@@ -1,0 +1,22 @@
+.categoriesCard {
+  max-width: 1300px;
+  margin: 2rem auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+
+.fashion {
+  max-width: 1000px;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    border: 2px solid black;
+    padding: 1.2rem 2rem;
+    width: 50%;
+    margin: 0 1rem;
+  }
+}

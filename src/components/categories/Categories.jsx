@@ -1,4 +1,4 @@
-import "./categories.styles.scss";
+import styles from "./Categories.module.scss";
 
 import CategoryItem from "../category-item/CategoryItem";
 
@@ -29,11 +29,24 @@ const categories = [
 
 const Categories = () => {
   return (
-    <div className="categories-card">
-      {categories.map((category) => (
-        <CategoryItem key={category.id} category={category} />
-      ))}
-    </div>
+    <>
+      <div className={styles.categoriesCard}>
+        {categories.map((category) => (
+          <CategoryItem key={category.id} category={category} />
+        ))}
+      </div>
+
+      <section className={styles.fashion}>
+        <div>
+          <h1>Men's Fashion</h1>
+          <p>See More &rarr;</p>
+        </div>
+        <div>
+          <h1>Women's Fashion</h1>
+          <p>See More &rarr;</p>
+        </div>
+      </section>
+    </>
   );
 };
 
