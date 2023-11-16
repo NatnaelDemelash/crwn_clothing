@@ -18,7 +18,7 @@ const NavBar = () => {
           <Link className={styles.navLink} to="/contact">
             Contact
           </Link>
-          <Link className={styles.navLink} to="/signIn">
+          <Link className={styles.navLink} to="/auth">
             Sign In
           </Link>
           <Link className={styles.navLink}>

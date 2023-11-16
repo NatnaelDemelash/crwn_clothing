@@ -1,0 +1,41 @@
+.signInFormContainer {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+
+  h3 {
+    margin: 10px 0;
+  }
+}
+
+.cta {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  min-width: 165px;
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: inherit;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 1rem 2.2rem;
+  background: #000;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background: transparent;
+    border: 2px solid #000;
+    color: #000;
+  }
+}
+
+.google {
+  background-color: rgb(44, 84, 214);
+  color: #fff;
+}

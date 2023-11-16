@@ -9,7 +9,7 @@ $main-color: black;
 
 .group {
   position: relative;
-  margin: 25px 0;
+  margin: 10px 0;
 
   .formInput {
     background: none;
@@ -22,7 +22,7 @@ $main-color: black;
     border: none;
     border-radius: 5px;
     margin: 15px 0;
-
+    font-family: inherit;
     &:focus {
       outline: none;
     }

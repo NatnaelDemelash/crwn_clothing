@@ -53,7 +53,6 @@ const SignUpForm = () => {
 
   return (
     <div className={style.signUpFormContainer}>
-      <h3>Don't have an account?</h3>
       <h1>Sign Up</h1>
       <form onSubmit={handleSubmit}>
         <FormInput
